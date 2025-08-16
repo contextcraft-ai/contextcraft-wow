@@ -1,0 +1,18 @@
+# CODEOWNERS for contextcraft-wow repository
+# This file defines who is responsible for code in this repository.
+# These owners will be the default owners for everything in the repo.
+# They will be requested for review when someone opens a pull request.
+
+# Default owners for everything in the repo
+* @contextcraft-ai/maintainers
+
+# Documentation
+/docs/ @contextcraft-ai/maintainers
+*.md @contextcraft-ai/maintainers
+
+# CI/CD and GitHub Actions
+/.github/ @contextcraft-ai/maintainers
+
+# Security and compliance
+/SECURITY.md @contextcraft-ai/security
+/LICENSE @contextcraft-ai/maintainers
